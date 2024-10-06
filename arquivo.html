@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária</title>
+    <link rel="stylesheet" href="arquivo.css"> 
+</head>
+    <body>
+        <header>
+            <div class="imagem">
+            <img src="WhatsApp_Image_2024-09-26_at_12.10.34__1_-removebg-preview.png" alt="Logotipo">
+            </div>
+            <nav>
+                <ul class="nav">
+                <li class="barra-nav"><a href="dash.html">Dashboard</a></li>
+                <li class="barra-nav"><a href="consulta.html">Consultas</a></li>
+                <li class="barra-nav"><a href="esto.html">Estoque</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+              <form class="arquivo" action="enviar arquivo.php" method="post" enctype="multipart/form-data">
+                  <h1>Upload <i class=" fas fa-cloud-upload-alt"></i></h1><br>
+                  <input type="file" id="imagem" name="imagem" accept="image/*, application/pdf, .doc, .docx"><br>
+                  <button type="submit"><i class=" fas fa-paper-plane"></i> Enviar arquivo</button>
+              </form>
+        
+            </div>
+        </main>
+        
+</body>
+</html>
+
